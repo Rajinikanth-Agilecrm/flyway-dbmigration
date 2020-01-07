@@ -1,4 +1,4 @@
-CREATE TABLE REGISTRATION_EMP (
+CREATE TABLE REGISTRATION_EMP1 (
   id bigint(20) NOT NULL AUTO_INCREMENT,
   username varchar(100) NOT NULL,
   first_name varchar(50) NOT NULL,
