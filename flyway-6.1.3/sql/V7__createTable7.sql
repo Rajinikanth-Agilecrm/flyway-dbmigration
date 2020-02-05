@@ -1,4 +1,4 @@
-CREATE TABLE `sourceteste7` (
+CREATE TABLE `sourcetest7` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Auto-increment Id is stored',
   `domain_id` int(10) unsigned NOT NULL COMMENT 'To store the id of particular domain.',
   `name7` varchar(50) NOT NULL COMMENT 'Name of the source is stored.',
