@@ -23,6 +23,6 @@ for ((i=1; i<=1; i++))
   # if [ $i == 4 ];
   # then
   #  flyway -user="$user4" -password="$password4" -url="$url4" migrate
-  # fi
+  ## fi
 
 done
