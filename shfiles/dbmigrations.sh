@@ -1,4 +1,4 @@
-echo start running
+echo dbmigrations script start running
 source config.sh
 #echo "enter flyway command example (migrate, clean, info, validate)"
 #read commd 
