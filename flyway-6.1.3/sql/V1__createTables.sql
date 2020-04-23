@@ -1,6 +1,6 @@
 CREATE TABLE `activity` (  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Auto-increment Id is stored',  `domain_id` int(10) unsigned NOT NULL COMMENT 'To store the id of particular domain.',  `entity` varchar(50) NOT NULL COMMENT 'Entity name on which the actions performed is stored',  `entity_id` int(10) unsigned NOT NULL COMMENT 'Id of the entity on which the action performed is stored',  `action` varchar(30) NOT NULL COMMENT 'Type of action performed on particular entities is stored',  `activity` mediumtext NOT NULL COMMENT 'Data on which the action performed is stored.',  `created_by` int(10) unsigned NOT NULL COMMENT 'Id of the user who created the attachment is stored.',  `created_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'Date on which the attachment is uploaded is stored.',  `sub_entity` varchar(50) DEFAULT NULL COMMENT 'Child table name for the particular parent table is stored',  `sub_entity_id` int(10) unsigned DEFAULT NULL COMMENT 'Id of the child table name is stored',  PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
-CREATE TABLE `theme` (
+CREATE TABLE `themettttt` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Auto-increment Id is stored',
   `domain_id` int(10) unsigned NOT NULL COMMENT 'To store the id of particular domain.',
   `name` varchar(50) NOT NULL COMMENT 'Name of the  theme is stored.',
@@ -13,7 +13,7 @@ CREATE TABLE `theme` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE `task` (
+CREATE TABLE `tasktttt` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Auto-increment Id is stored',
   `domain_id` int(10) unsigned NOT NULL COMMENT 'To store the id of particular domain.',
   `name` varchar(50) NOT NULL COMMENT 'Name of the task is stored.',
